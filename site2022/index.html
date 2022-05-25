@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoala 2022</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link de legatura cu siteul cu fa-fa-icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" href="images/favicon.png">
+    <!-- librarie pt galerie -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- link pt libraria cu aos pt animatii, pt css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- librarie pt email mesaj -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <!-- js lucreaza cu lightbox pt galerie/ ordinea conteaza -->
+    <script src="js/lightbox.js"> </script>
+
+    <!-- legatura librariei aos , partea de js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+
+    <script src="js/main.js" defer> </script>
+    <script src="js/slider.js" defer> </script>
+
+
+</head>
+
+<body>
+
+    <header data-aos="fade-down">
+        <a href="index.html">
+            <img class="logo-header" src="images/logoDichii.png">
+        </a>
+
+        <navbar class="nav" id="navbar">
+            <a onclick="mobile()" href="#despre">Despre noi</a>
+            <a onclick="mobile()" href="#galerie">Galeria</a>
+            <a onclick="mobile()" href="#contacte">Contacte</a>
+            <a onclick="mobile()" href="pages/orar.html">Orar</a>
+            <a onclick="mobile()" href="pages/noutate.html">Noutăți</a>
+
+            <!-- codul pt butonul de hamburgher -->
+            <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
+
+        </navbar>
+
+
+    </header>
+
+    <section id="intro">
+        <div class="intro-content" data-aos="fade-in" data-aos-delay="400">
+            <img class="logo" src="images/logoDichii.png" alt="logo">
+            <h1>LT "Miron Costin"</h1>
+            <h2>Calitate Inovație Profesionalism</h2>
+            <a class="intro-btn" id="despre-btn" href="#despre"> Despre noi </a>
+            <a class="intro-btn" href="pages/noutate.html"> Noutăți </a>
+            <a class="intro-btn" href="pages/orar.html"> Orar</a>
+
+
+
+            <div class="custom-shape-divider-bottom-1647624256">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </div>
+
+    </section>
+
+    <main>
+        <section id="despre" data-aos="fade-in">
+            <h1 class="centered">Despre noi</h1>
+            <i class="fas fa-graduation-cap fly1"></i>
+            <i class="fas fa-pencil-alt fly2"></i>
+            <i class="fas fa-book fly3"></i>
+            <i class="fas fa-graduation-cap fly4"></i>
+            <i class="fas fa-pencil-alt fly5"></i>
+            <i class="fas fa-book fly6"></i>
+            <i class="fas fa-graduation-cap fly7"></i>
+            <i class="fas fa-pencil-alt fly8"></i>
+            <i class="fas fa-book fly9"></i>
+            <p class="p-despre"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam, quasi
+                veritatis, eveniet amet quibusdam quae, sint voluptatum illo eligendi earum. Voluptatibus atque itaque
+                neque fugit asperiores amet accusantium numquam.
+            </p>
+
+            <div class="slideshow">
+
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-user-tie"></i>
+                        <p>Calitate Experiență Devotament Profesionalism Succes</p>
+                    </div>
+                    <img src="images/sl3.jpg">
+                </div>
+
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-microscope"></i>
+
+                        <p>Inovație Dedicație Rezultate</p>
+                    </div>
+                    <img src="images/slide10.jpeg">
+                </div>
+
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-book"></i>
+
+                        <p>Calitate Experiență Devotament Profesionalism Succes</p>
+                    </div>
+                    <img src="images/sl5.jpg">
+                </div>
+
+                <div class="slide">
+                    <div class="slide-text">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Calitate Experiență Devotament Profesionalism Succes</p>
+                    </div>
+                    <img src="images/sl6.jpg">
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- galerie  -->
+        <section id="galerie" data-aos="fade-in">
+            <h1 class="centered">Galerie</h1>
+            <i class="fas fa-graduation-cap fly1"></i>
+            <i class="fas fa-pencil-alt fly2"></i>
+            <i class="fab fa-envira fly3"></i>
+            <i class="fas fa-pencil-alt fly5"></i>
+            <i class=" fab fa-envira fly6"></i>
+            <i class="far fa-smile fly7"></i>
+            <i class="fas fa-book fly9"></i>
+
+
+            <div class="container-galerie">
+                <a data-aos="zoom-in" data-aos-delay="200" href="images/scoala.jpg">
+                    <img src="images/scoala.jpg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="400" href="images/scoala2.jpg">
+                    <img src="images/scoala2.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="600" href="images/scoala2.jpg">
+                    <img src="images/scoala2.jpg">
+                </a>
+
+                <a data-aos="zoom-in" data-aos-delay="800" href="images/scoala3.jpg">
+                    <img src="images/scoala3.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="1000" href="images/scoala4.jpg">
+                    <img src="images/scoala4.jpg">
+                </a>
+                <a data-aos="zoom-in" data-aos-delay="1200" href="images/scoala5.jpg">
+                    <img src="images/scoala5.jpg">
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Contacte -->
+        <section id="contacte" data-aos="fade-in">
+            <h1 class="centered">Contacte</h1>
+
+            <div class="row">
+                <div class="col-50 contacte-info">
+                    <b>Telefon:</b>
+                    <a href="tel:+37379624205">+37379624205</a>
+                    <br />
+                    <b>Adresa:</b>
+                    <span>Str. Ion Creangă 5</span>
+                    <br />
+                    <b>Email:</b>
+                    <a href="mailto:scoalaprimara@gmail.com">scoalaprimara@gmail.com</a>
+                    <br />
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj:</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <br>
+                            <textarea id="mesaj" rows="4" placeholder="Mesajul" required></textarea>
+                            <br>
+                            <input id="transmite" type="button" value="Transmite" onclick="send()">
+
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1864.4900642912394!2d28.288449371270318!3d47.894974541354934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cc9acc1e03e72d%3A0x5aba81d6f9bf8bd0!2sScoala%20Primara%20or.Floresti%2C%20Flore%C5%9Fti%205001!5e0!3m2!1sro!2s!4v1649864208583!5m2!1sro!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div> LT "Miron Costin" ©️</div>
+        <div id="am">2022</div>
+
+    </footer>
+
+</body>
+
+</html>
